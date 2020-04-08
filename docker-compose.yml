@@ -2,6 +2,6 @@ version: '3.7'
 
 services:
     cah:
-        image: 'emcniece/dockeryourxyzzy:dev'
+        build: 'emcniece/dockeryourxyzzy:dev'
     ports:
         - 8080:8080
